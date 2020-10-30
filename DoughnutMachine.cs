@@ -43,12 +43,12 @@ namespace Rusu_Theona_Lab2
         public DoughnutMachine()
         {
             InitializeComponent();
-       }
+        }
         private void doughnutTimer_Tick(object sender, EventArgs e)
         {
             Doughnut aDoughnut = new Doughnut(this.Flavor);
             mDoughnuts.Add(aDoughnut);
-             DoughnutComplete();
+            DoughnutComplete();
         }
          public bool Enabled
         {
